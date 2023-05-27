@@ -1,8 +1,6 @@
 export const userResolver = {
   Query: {
     createUser: () => {
-      console.log("hello");
-
       return {
         username: "any username",
         name: "anyname",
